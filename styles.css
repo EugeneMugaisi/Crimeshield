@@ -605,6 +605,56 @@ section .title::after
     padding-right: 25px;
 }
 
+/* about us page styling */
+.sub-header
+{
+    height: 50vh;
+    width: 100%;
+    background: radial-gradient(#d4af37, #000);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #000;
+}
+.sub-header h1
+{
+    margin-top: 10px;
+}
+.about-us
+{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.about-col
+{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+.about-col img
+{
+    width: 100%;
+}
+.about-col h1
+{
+    padding-top: 0;
+}
+.about-col p
+{
+    padding: 15px 0 25px;
+}
+.red-btn
+{
+    border: 1px solid #d4af37;
+    background: transparent;
+    color: #d4af37;
+}
+
+
+
+
+
 
 /* responsive media query start */
 @media(max-width: 700px)
