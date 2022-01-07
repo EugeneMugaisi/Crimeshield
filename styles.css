@@ -222,7 +222,6 @@ h1
 
 p
 {
-    color: #777;
     font-size: 14px;
     font-weight: 300;
     line-height: 22px;
@@ -244,6 +243,17 @@ p
     box-sizing: border-box;
     transition: all 0.3s ease;
 }
+.service-col p
+{
+    color: #777;
+}
+.service-col ul
+{
+    list-style: none;
+    text-align: center;
+    font-weight: 500;
+    line-height: 40px;
+}
 h3
 {
     text-align: center;
@@ -257,12 +267,21 @@ h3
 }
 
 /* sectors section styling */
+.start
+{
+    width: 100%;
+    background: #111;
+}
 .sectors
 {
     width: 80%;
     margin: auto;
     text-align: center;
     padding-top: 50px;
+}
+.sectors h1
+{
+    color: #fff;
 }
 .sectors-col
 {
@@ -289,7 +308,7 @@ h3
 }
 .layer:hover
 {
-    background: rgba(266, 0, 0, .7);
+    background: rgba(212, 175, 55, .7);
 }
 .layer h3
 {
@@ -552,6 +571,7 @@ section .title::after
     width: 100%;
     text-align: center;
     padding: 30px 0;
+    background: radial-gradient(#d4af37,#000);
 }
 .footer h4
 {
@@ -568,7 +588,7 @@ section .title::after
 }
 .fa-heart-o
 {
-    color: #d4af37;
+    color: #000;
 }
 
 /* partnerships section styling */
