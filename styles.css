@@ -214,6 +214,10 @@ nav .fa
     text-align: center;
     padding-top: 100px;
 }
+.services a
+{
+    margin-bottom: 20px;
+}
 h1
 {
     font-size: 36px;
@@ -278,6 +282,10 @@ h3
     margin: auto;
     text-align: center;
     padding-top: 50px;
+}
+.sectors a
+{
+    margin-bottom: 20px;
 }
 .sectors h1
 {
