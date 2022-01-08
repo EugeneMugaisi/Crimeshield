@@ -734,6 +734,32 @@ section .title::after
     resize: none;
 }
 
+/* gallery section styling */
+.img-area
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.img-area img
+{
+    width: 230px;
+    padding: 5px;
+    filter: grayscale(70%);
+    transition: all 0.5s ease;
+}
+.img-area img:hover
+{
+    filter: grayscale(0%);
+    transform: scale(1.1);
+}
+.single-img
+{
+    padding: 0 20px 20px;
+}
+
 
 
 
