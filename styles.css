@@ -218,6 +218,10 @@ nav .fa
 {
     margin-bottom: 20px;
 }
+.services span
+{
+    color: #d4af37;
+}
 h1
 {
     font-size: 36px;
@@ -258,6 +262,7 @@ p
     font-weight: 500;
     line-height: 40px;
 }
+
 h3
 {
     text-align: center;
@@ -951,6 +956,27 @@ ul
     margin: 10px 0;
 }
 
+/* about us page styling */
+.core-values
+{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.core-values h1
+{
+    color: #fff;
+}
+.core-values p
+{
+    color: #fff;
+}
+.core-values li
+{
+    color: #d4af37;
+}
+
 
 
 /* responsive media query start */
@@ -1008,5 +1034,19 @@ ul
     .sub-header h1
     {
         font-size: 24px;
+    }
+    .about-us h1
+    {
+        font-size: 26px;
+        text-align: center;
+    }
+    .core-values h1
+    {
+        font-size: 26px;
+        text-align: center;
+    }
+    .services h1
+    {
+        font-size: 26px;
     }
 }
