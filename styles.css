@@ -168,15 +168,25 @@ nav img
     transform: translate(-50%,-50%);
     text-align: center;
 }
-.text-box h1
+.text-box h3
 {
-    font-size: 62px;
     color: #000;
+}
+.text-box h2
+{
+    margin: 10px 0 40px;
+    /* font-size: 14px; */
+    margin-top: 30px;
+    font-family: 'Ubuntu' sans-serif;
+    font-size: 40px;
+    color: #fff;
 }
 .text-box p
 {
-    margin: 10px 0 40px;
-    font-size: 14px;
+    font-size: 18px;
+}
+.text-box span
+{
     color: #000;
 }
 .hero-btn
@@ -186,6 +196,7 @@ nav img
     color: #fff;
     border: 1px solid #fff;
     padding: 12px 34px;
+    margin-top: 30px;
     font-size: 13px;
     background: transparent;
     position: relative;
@@ -207,6 +218,10 @@ nav .fa
 
 
 /* services section styling */
+.service-start
+{
+    background: rgba(211, 210, 210, 0.2);
+}
 .services
 {
     width: 80%;
@@ -229,6 +244,15 @@ nav .fa
 }
 .services span
 {
+    color: #d4af37;
+}
+.services p
+{
+    font-size: 18px;
+}
+.services hr
+{
+    font-weight: bold;
     color: #d4af37;
 }
 h1
@@ -999,14 +1023,30 @@ ul
 
 /* responsive media query start */
 @media(max-width: 700px)
-{
-    .text-box h1
+{   .text-box
+    {
+        margin-top: 30px;
+    }
+    .text-box h3
+    {
+        font-size: 14px;
+    }
+    .text-box h2
     {
         font-size: 24px;
+    }
+    .text-box p
+    {
+        font-size: 14px;
+        text-align: center;
     }
     .nav-links ul li
     {
         display: block;
+    }
+    nav a img
+    {
+        width: 100px;
     }
     .nav-links
     {
@@ -1086,6 +1126,10 @@ ul
         z-index: 2;
         transition: all 1s ease;
     }
+    nav a img
+    {
+        width: 100px;
+    }
     nav .fa
     {
         display: block;
@@ -1101,5 +1145,9 @@ ul
     .row
     {
         flex-direction: column;
+    }
+    .text-box p
+    {
+        font-size: 14px;
     }
 }
