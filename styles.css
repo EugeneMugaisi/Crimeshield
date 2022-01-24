@@ -490,6 +490,7 @@ section .title::after
     color: #fff;
     background: #111;
     min-height: 100vh;
+    text-align: center;
 }
 .teams .title::before
 {
@@ -577,6 +578,10 @@ section .title::after
 .owl-dot:hover
 {
     background: #d4af37!important;
+}
+.teams a
+{
+    margin-bottom: 20px;
 }
 
 
@@ -1085,10 +1090,6 @@ ul
     {
         font-size: 24px;
     }
-    /* .row-2
-    {
-        flex-direction: column;
-    } */
     .sub-header h1
     {
         font-size: 24px;
@@ -1106,6 +1107,18 @@ ul
     .services h1
     {
         font-size: 26px;
+    }
+    .services p
+    {
+        font-size: 22px;
+    }
+    .row-2
+    {
+        flex-direction: column;
+    }
+    .col-5
+    {
+        padding: 20px;
     }
 }
 @media(max-width: 850px)
@@ -1149,5 +1162,13 @@ ul
     .text-box p
     {
         font-size: 14px;
+    }
+    /* .row-2
+    {
+        flex-direction: column;
+    } */
+    .col-5
+    {
+        padding: 20px;
     }
 }
