@@ -170,13 +170,13 @@ nav img
 }
 .text-box h3
 {
-    color: #000;
+    color: #fff;
 }
 .text-box h2
 {
     margin: 10px 0 40px;
     /* font-size: 14px; */
-    margin-top: 30px;
+    margin-top: 10px;
     font-family: 'Ubuntu' sans-serif;
     font-size: 40px;
     color: #fff;
@@ -649,6 +649,7 @@ section .title::after
 {
     margin-bottom: 40px;
     padding: 0;
+    color: #fff;
 }
 
 /* footer section styling */
@@ -1042,7 +1043,7 @@ ul
     }
     .text-box p
     {
-        font-size: 14px;
+        font-size: 16px;
         text-align: center;
     }
     .nav-links ul li
@@ -1161,7 +1162,7 @@ ul
     }
     .text-box p
     {
-        font-size: 14px;
+        font-size: 16px;
     }
     /* .row-2
     {
