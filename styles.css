@@ -284,7 +284,7 @@ p
 }
 .service-col p
 {
-    color: #777;
+    color: #555;
 }
 .service-col ul
 {
@@ -293,7 +293,10 @@ p
     font-weight: 500;
     line-height: 40px;
 }
-
+.service-col h3
+{
+    color: #d4af37;
+}
 h3
 {
     text-align: center;
@@ -413,7 +416,7 @@ h3
 } */
 .personell-col
 {
-    flex-basis: 24%;
+    flex-basis: 31%;
     background: #fff3f3;
     border-radius: 10px;
     margin-bottom: 5%;
