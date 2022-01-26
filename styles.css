@@ -350,6 +350,10 @@ h3
     width: 100%;
     display: block;
 }
+.sectors span
+{
+    color: #d4af37;
+}
 .layer
 {
     background: transparent;
@@ -552,6 +556,10 @@ section .title::after
 {
     border-color: #000;
 }
+.teams span
+{
+    color: #d4af37;
+}
 .owl-dots
 {
     text-align: center;
@@ -631,6 +639,15 @@ section .title::after
 {
     color: #d4af37;
 }
+.testimonials .title::before
+{
+    background: #000;
+}
+.testimonials .title::after
+{
+    content: "what clients say";
+    background: #fff;
+}
 /* call to action section styling */
 .cta
 {
@@ -684,7 +701,7 @@ section .title::after
 }
 .footer p
 {
-    color: #000;
+    color: #fff;
 }
 .footer h3
 {
@@ -699,6 +716,11 @@ section .title::after
 .footer-col-1
 {
     flex-basis: 30%;
+    text-align: center;
+}
+.footer-col-1 p
+{
+    color: #000;
 }
 .footer-col-2
 {
@@ -707,7 +729,7 @@ section .title::after
 }
 .footer-col-2 img
 {
-    width: 100px;
+    width: 150px;
     margin-bottom: 20px;
     border-radius: 50%;
 }
@@ -720,9 +742,33 @@ ul
 {
     list-style-type: none;
 }
+.footer-col-3
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.footer-col-3 .fa
+{
+    font-size: 28px;
+    color: #000;
+    margin: 10px;
+    margin-right: 30px;
+}
+.footer-col-3 p
+{
+    padding: 0;
+}
+.footer-col-4 h3
+{
+    color: #000;
+    font-size: 20px;
+}
 .footer-col-4 li
 {
-    margin: 20px;
+    margin: 30px;
 }
 .footer-col-4 li a
 {
@@ -747,6 +793,10 @@ ul
 .copyright
 {
     text-align: center;
+}
+.fa-copyright
+{
+    color: #000;
 }
 .menu-icon
 {
@@ -1114,7 +1164,7 @@ ul
     }
     .services h1
     {
-        font-size: 26px;
+        font-size: 30px;
     }
     .services p
     {
@@ -1127,6 +1177,22 @@ ul
     .col-5
     {
         padding: 20px;
+    }
+    .sectors h1
+    {
+        font-size: 26px;
+    }
+    .teams h2
+    {
+        font-size: 30px;
+    }
+    .testimonials h1
+    {
+        font-size: 26px;
+    }
+    .cta h1
+    {
+        font-size: 24px;
     }
 }
 @media(max-width: 850px)
