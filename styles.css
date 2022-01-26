@@ -215,8 +215,6 @@ nav .fa
 }
 
 
-
-
 /* services section styling */
 .service-start
 {
@@ -842,6 +840,10 @@ ul
 {
     padding-top: 0;
 }
+.about-col h2
+{
+    color: #d4af37;
+}
 .about-col p
 {
     padding: 15px 0 25px;
@@ -1096,6 +1098,11 @@ ul
         font-size: 24px;
     }
     .about-us h1
+    {
+        font-size: 26px;
+        text-align: center;
+    }
+    .about-us h2
     {
         font-size: 26px;
         text-align: center;
