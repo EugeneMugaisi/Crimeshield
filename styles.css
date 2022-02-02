@@ -975,7 +975,7 @@ ul
 }
 .contact-col div img
 {
-    width: 500px;
+    width: 100%;
 }
 .contact-col input, .contact-col textarea
 {
@@ -1250,7 +1250,7 @@ ul
     }
     .contact-col div img
     {
-        width: 350px;
+        width: 100%;
     }
 }
 @media(max-width: 850px)
