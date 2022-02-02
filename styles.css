@@ -1248,6 +1248,10 @@ ul
     {
         font-size: 12px;
     }
+    .contact-col div img
+    {
+        width: 350px;
+    }
 }
 @media(max-width: 850px)
 {
