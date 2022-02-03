@@ -1069,6 +1069,16 @@ ul
     color: #999;
     padding: 0;
 }
+.blog-left a
+{
+    text-decoration: none;
+}
+.blog-left ul li
+{
+    color: #999;
+    padding: 0;
+    list-style-type: square;
+}
 .blog-right
 {
     flex-basis: 32%;
