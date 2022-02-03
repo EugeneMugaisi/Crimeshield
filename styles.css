@@ -880,6 +880,15 @@ ul
     padding-top: 80px;
     padding-bottom: 50px;
 }
+.about-us h1
+{
+    text-align: center;
+}
+.about-us span,
+.about-col span
+{
+    color: #d4af37;
+}
 .about-col
 {
     flex-basis: 48%;
@@ -892,6 +901,7 @@ ul
 .about-col h1
 {
     padding-top: 0;
+    margin-bottom: 20px;
 }
 .about-col h2
 {
@@ -901,6 +911,12 @@ ul
 {
     padding: 15px 0 25px;
     font-size: 16px;
+}
+.about-col div ul li
+{
+    display: flex;
+    flex-direction: row;
+    padding: auto;
 }
 .red-btn
 {
