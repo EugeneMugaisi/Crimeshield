@@ -936,6 +936,10 @@ ul
 {
     margin-top: 10px;
 }
+.sub-header span
+{
+    color: #fff;
+}
 .about-us
 {
     width: 80%;
@@ -1222,7 +1226,7 @@ ul
     .text-box h3
     {
         font-size: 14px;
-        margin-top: 200px;
+        /* margin-top: 200px; */
     }
     .text-box h2
     {
@@ -1243,7 +1247,7 @@ ul
     }
     nav a img
     {
-        width: 100px;
+        width: 50px;
     }
     .nav-links
     {
